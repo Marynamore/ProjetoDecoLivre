@@ -1,0 +1,372 @@
+/****************** Configurações/reset da página **********************/
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Roboto+Mono:ital,wght@0,400;0,600;1,300 & family= Source+Serif+Pro: ital,wght@0,600;1,600 & display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+    --color0: #253041;
+    --color20: #243775;; 
+    --color22: #3C5BC2;
+    --color21: #4C73F5;
+    --color7: #1155cc;
+    --color4: #0054a3;
+    --color2: #0074cc;
+    --color5: #0a95ff;
+    --color10: #379fef;
+    --color11: #39739d;
+    --color1: #e1e2f0;
+    --color6: #6bbbf7;
+    --color8: #aedafc;
+    --color9: #cde9fe;
+    --color13: #eceff1;
+    --color14: #f5f5f5;
+    --color15: #dbdbdb;
+    --color16: #5E8D93;
+    --color17: #02D1B3;
+    --color18: #96ADF7;
+    --color19: #485275;
+    --font-primary: 'Bebas Neue', cursive;
+    --font-secundary: 'Roboto Mono', monospace;
+    --font-action: 'Source Serif Pro', serif;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    max-width: 12800px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+/**************************Menu de navegação***********************/
+
+.logo img {
+    width: 150px;
+}
+
+menu,
+nav {
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color1);
+    font-size: 1.2em;
+    transition: all ease-in-out 500ms;
+    background-color: var(--color20);
+}
+
+.menu-wrapper,
+.nav-pages a,
+i,
+.information a {
+    color: var(--color1);
+    transition: all ease-in-out 300ms;
+}
+
+.menu-wrapper div,
+.nav-pages {
+    text-align: center;
+    margin: 0 2em;
+}
+
+.menu-wrapper,
+.information i:hover {
+    color: rgb(133, 133, 133);
+}
+
+
+.information i,
+.nav-pages {
+    font-size: .9em;
+}
+
+nav,
+li {
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.nav-pages {
+    padding: 0 2em;
+    margin: 0;
+    background-color: var(--color4);
+
+}
+
+.input-search {
+    width: 70%;
+    display: flex;
+}
+
+.input-search form {
+    display: flex;
+    width: 100%;
+}
+
+/**************************Menu barra de pesquisa***********************/
+
+.search-box {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #e1e2f0;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box img {
+    width: 1em;
+    height: 1em;
+}
+
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 0.9em;
+    width: 0;
+    transition: .6s;
+}
+
+::-webkit-input-placeholder .search-btn {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+.search-box:hover>.search-txt {
+    width: 15em;
+
+}
+
+.search-box:hover > .search-btn {
+    background: #f0f5fb;
+
+}
+
+/************************ Main (imagem de fundo e o banner) *********************/
+
+section.header-main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    opacity: 0.5;
+    animation: zoom 20s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.banner {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 3.5em;
+    font-family: var(--font-primary);
+    font-weight: 200;
+    text-shadow: 0.3em 0.4em 2px rgba(0, 0, 0, 0.4);
+
+}
+
+/************************ Sidebar Ofertas *********************/
+
+.ofertas-main {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+.ofertas-title {
+    align-items: center;
+    justify-content: center;
+}
+
+.ofertas-title h2 {
+    font-family: var(--font-primary);
+    font-size: 1.9em;
+    color: var(--color0);/*#4b4b4b;*/
+    border-bottom: solid 3px #6a3093;
+}
+
+.ofertas aside {
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.ofertas img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/************************ Conteúdo Principal do Site  *********************/
+
+.campo-select {
+    width: 100%;
+    padding: 2em 2.5em;
+    background-color: var(--color15);
+}
+
+.campo-select h2 {
+    font-family: var(--font-primary);
+}
+
+.campo-title{
+    color: var(--color11);
+}
+
+.option-main select {
+    background: transparent;
+    border: none;
+    padding: 0 0 0 10px;
+    font-size: 1.2em;
+    font-family: var(--font-secundary);
+    border-bottom: 2px dashed #444040;
+    outline: none;
+}
+
+/************************ Conteúdo Principal do Site (Vitrine-Nacional) *********************/
+.vitrine-title {
+    justify-content: center;
+    align-items: center;
+}
+
+.vitrine-title h2 {
+    margin-top: 2.6em;
+    font-family: var(--font-primary);
+    font-size: 1.9em;
+    color: #4b4b4b;
+    border-bottom: solid 3px #6a3093;
+}
+
+.vitrine-title-inter {
+    margin-top: 5em;
+}
+
+.vitrine-national,
+.vitrine-international {
+    width: 100%;
+    height: 50vh;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
+.box-vitrine {
+    width: 23%;
+    background-color: var(--color1);
+    padding: 0 0 12px 0;
+}
+
+.box-vitrine img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+/************************ Conteúdo Principal do Site "Comentarios" *********************/
+
+.comentarios {
+    padding: 3em;
+    background-color: var(--color15);
+}
+
+/************************ Conteúdo Principal do Site "Sobre Nós" *********************/
+
+.about {
+    min-height: 300px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.about-article {
+    width: 800px;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.about-article h2 {
+    overflow: hidden;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************Seção do rodapé*************************/
+.footer {
+    min-height: 20vh;
+    background-color: var(--color0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.footer i {
+    color: white;
+    font-size: 30px;
+}
+
+cite {
+    color: red;
+}
+
