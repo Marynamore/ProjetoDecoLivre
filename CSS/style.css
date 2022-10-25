@@ -4,7 +4,8 @@
 
 :root {
     --color0: #253041;
-    --color20: #243775;; 
+    --color20: #243775;
+    ;
     --color22: #3C5BC2;
     --color21: #4C73F5;
     --color7: #1155cc;
@@ -167,7 +168,7 @@ li {
 
 }
 
-.search-box:hover > .search-btn {
+.search-box:hover>.search-btn {
     background: #f0f5fb;
 
 }
@@ -228,7 +229,7 @@ section.header-main {
     left: 3%;
 }
 
-.ofertas-title {
+.ofertas-title , .passagens-title{
     align-items: center;
     justify-content: center;
 }
@@ -236,7 +237,8 @@ section.header-main {
 .ofertas-title h2 {
     font-family: var(--font-primary);
     font-size: 1.9em;
-    color: var(--color0);/*#4b4b4b;*/
+    color: var(--color0);
+    /*#4b4b4b;*/
     border-bottom: solid 3px #6a3093;
 }
 
@@ -262,7 +264,7 @@ section.header-main {
     font-family: var(--font-primary);
 }
 
-.campo-title{
+.campo-title {
     color: var(--color11);
 }
 
@@ -277,7 +279,7 @@ section.header-main {
 }
 
 /************************ Conteúdo Principal do Site (Vitrine-Nacional) *********************/
-.vitrine-title {
+.vitrine-title ,.passagens-title{
     justify-content: center;
     align-items: center;
 }
@@ -370,3 +372,104 @@ cite {
     color: red;
 }
 
+/***********************Pagina de Passagens *************************/
+
+.passagens .passagens-form {
+    position: absolute;
+    top: 25em;
+    left: 8%;
+    padding: 2em;
+    background: #eee;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.box-passagens input{
+    width: 100%;
+    padding: .5em;
+    font-size: 1em;
+    color: #777;
+    text-transform: none;
+    margin-top: 2em;
+    border: .1em solid #222;
+}
+
+.box-passagens input:focus {
+    background: #222;
+    color: #fff;
+}
+
+.box-passagens input:focus::placeholder {
+    color: #fff9;
+}
+
+.box-passagens span {
+    font-size: 1.5em;
+    color: #777;
+}
+
+.passagens .passagens-form .btn {
+    margin-top: 2em;
+}
+
+/***********************Pagina de Passagens *************************/
+
+.passagens-main .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
+   gap: 2em;
+}
+
+.passagens-main .box-container .box{
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   background: var(--white);
+   display: none;
+}
+
+.passagens-main .box-container .box:nth-child(1),
+.passagens-main .box-container .box:nth-child(2),
+.passagens-main .box-container .box:nth-child(3),
+.passagens-main .box-container .box:nth-child(4),
+.passagens-main .box-container .box:nth-child(5),
+.passagens-main .box-container .box:nth-child(6){
+   display: inline-block;
+}
+
+.passagens-main  .box-container .box:hover .image img{
+   transform: scale(1.1);
+}
+
+.passagens-main  .box-container .box .image{
+   height: 15em;
+   overflow: hidden;
+}
+
+.passagens-main  .box-container .box .image img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   transition: .2s linear;
+}
+
+.passagens-main .box-container .box .content{
+   padding:2em;
+   text-align: center;
+}
+
+.passagens-main .box-container .box .content h3{
+   font-size: 2em;
+   color:var(--black);
+}
+
+.passagens-main .box-container .box .content p{
+   font-size: 1em;
+   color:var(--light-black);
+   line-height: 2;
+   padding:1em 0;
+}
+
+.passagens-main .load-more{
+   text-align: center;
+   margin-top: 2em;
+}

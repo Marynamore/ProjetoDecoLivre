@@ -1,14 +1,16 @@
 <?php
 
+/****************** Api Destino Unico!! ***************/
+
 $request = new HttpRequest();
-$request->setUrl('https://skyscanner50.p.rapidapi.com/api/v1/searchFlightEverywhereDetails');
+$request->setUrl('https://skyscanner50.p.rapidapi.com/api/v1/searchFlights');
 $request->setMethod(HTTP_METH_GET);
 
 $request->setQueryData([
 	'origin' => 'LOND',
-	'CountryId' => 'US',
-	'anytime' => 'true',
-	'oneWay' => 'false',
+	'destination' => 'NYCA',
+	'date' => '<REQUIRED>',
+	'adults' => '1',
 	'currency' => 'USD',
 	'countryCode' => 'US',
 	'market' => 'en-US'
@@ -26,4 +28,3 @@ try {
 } catch (HttpException $ex) {
 	echo $ex;
 }
-

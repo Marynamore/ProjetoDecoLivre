@@ -34,10 +34,10 @@
                 </div><!--information center-->
             </menu><!--menu-wrapper center-->
             <nav class="nav-pages flex">
-                <li><a href="#"><i class="fa-solid fa-house"></i><br>INICIO</a></li>
-                <li><a href="#"><i class="fa-sharp fa-solid fa-plane"></i><br>PASSAGENS AÉREAS</a></li>
-                <li><a href="#"><i class="fa-solid fa-comment-dots"></i><br>COMENTÁRIOS</a></li>
-                <li><a href="#"><i class="fa-solid fa-users"></i><br>SOBRE NÓS</a></li>
+                <li><a href="index.php"><i class="fa-solid fa-house"></i><br>INICIO</a></li>
+                <li><a href="/pages/passagens.php"><i class="fa-sharp fa-solid fa-plane"></i><br>PASSAGENS AÉREAS</a></li>
+                <li><a href="index.php"><i class="fa-solid fa-comment-dots"></i><br>COMENTÁRIOS</a></li>
+                <li><a href="index.php"><i class="fa-solid fa-users"></i><br>SOBRE NÓS</a></li>
             </nav><!--nav-page center-->
         </header>
         <main>
