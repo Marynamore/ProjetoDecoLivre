@@ -17,9 +17,21 @@ curl_setopt_array($curl, [
 	],
 ]);
 
-
-$response = curl_exec($curl);
+$response = json_decode(curl_exec($curl));
 $err = curl_error($curl);
+
+foreach($response->data as $ator){
+	echo "Nome:" . $ator->title . "<br>";
+	echo "Origem:" . $ator->originPlaceId . "<br>";
+	echo "Destino:" . $ator->destinationPlaceId . "<br>";
+	echo "Data:" . $ator->outboundDepartureDate . "<br>";
+	echo "Moeda:" . $ator->currencyId . "<br>";
+	echo "Valor:" . $ator->price . "<br>";
+	echo "Origem Aeroporto:" . $ator->originPlaceType . "<br>";
+	echo $ator->imageUrl . "<br>";
+
+	echo "<hr>";
+}
 
 curl_close($curl);
 
@@ -28,3 +40,5 @@ if ($err) {
 } else {
 	echo $response;
 }
+
+

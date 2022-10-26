@@ -45,28 +45,28 @@
                 <img src="lp/img/img_fundo.jpeg" alt="Aviao no Céu">
             </div><!--img-header-->
             <article class="banner sob">
-                <h1>ENCONTRE SEU MELHOR DESTIVO COM DECOLIVRE!</h1>
+                <h1>ENCONTRE SEU DESTIVO COM OS MELHORES PREÇOS NA DECOLIVRE!</h1>
             </article><!--banner-->
         </section><!--header-main-->
         <section class="passagens">
-            <form action="passagens_form.php" method="post" class="passagens-form">
+            <form action="passagens_form.php" method="GET" class="passagens-form">
                 <div class="flex">
                     <div class="box-passagens">
                         <span>ORIGEM</span>
-                        <input type="text" placeholder="" name="location">
+                        <input type="text" placeholder="" name="originPlaceId">
                     </div>
                     <div class="box-passagens">
                         <span>DESTINO</span>
-                        <input type="text" placeholder="" name="guests">
+                        <input type="text" placeholder="" name="destinationPlaceId">
                     </div>
                     <div class="box-passagens">
                         <span>IDA</span>
-                        <input type="date" name="arrivals">
+                        <input type="date" name="outboundDepartureDate">
                     </div>
                     <div class="box-passagens">
                         <span>VOLTA</span>
-                        <input type="date" name="leaving">
-                        <input type="submit" value="submit" class="btn" name="send">
+                        <input type="date" name="">
+                        <input type="submit" value="submit" class="btn" name="">
                     </div>
                 </div>
             </form>

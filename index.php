@@ -162,12 +162,16 @@
                 </section><!--vitrine-international-->
             </section><!--center-->
             <section class="comentarios about">
-                <p> COMENTÁRIOS </p>
+                <div class="vitrine-title flex">
+                    <h2>COMENTÁRIOS</h2>
+                </div><!--vitrine-title-->
             </section>
             <section class=" bg0">
                 <div class="center about-container">
                     <article class="about-article">
-                        <h2>Sobre a sua empresa</h2>
+                        <div class="vitrine-title flex">
+                            <h2>Sobre Nós</h2>
+                        </div><!--vitrine-title-->
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nisi optio provident dignissimos quae
                             suscipit veniam nostrum aspernatur voluptatem quis, deleniti alias officiis laborum a incidunt? Modi

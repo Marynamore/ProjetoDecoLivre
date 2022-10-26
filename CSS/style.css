@@ -5,7 +5,6 @@
 :root {
     --color0: #253041;
     --color20: #243775;
-    ;
     --color22: #3C5BC2;
     --color21: #4C73F5;
     --color7: #1155cc;
@@ -177,7 +176,6 @@ li {
 
 section.header-main {
     width: 100%;
-    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -213,6 +211,7 @@ section.header-main {
 }
 
 .banner h1 {
+    text-align: center;
     color: #fff;
     font-size: 3.5em;
     font-family: var(--font-primary);
@@ -256,6 +255,7 @@ section.header-main {
 
 .campo-select {
     width: 100%;
+    margin-top: 6em;
     padding: 2em 2.5em;
     background-color: var(--color15);
 }
@@ -387,16 +387,10 @@ cite {
 .box-passagens input{
     width: 100%;
     padding: .5em;
-    font-size: 1em;
-    color: #777;
+    color: #222;
+    font-family: var(--font-secundary);
     text-transform: none;
-    margin-top: 2em;
     border: .1em solid #222;
-}
-
-.box-passagens input:focus {
-    background: #222;
-    color: #fff;
 }
 
 .box-passagens input:focus::placeholder {
@@ -412,64 +406,3 @@ cite {
     margin-top: 2em;
 }
 
-/***********************Pagina de Passagens *************************/
-
-.passagens-main .box-container{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
-   gap: 2em;
-}
-
-.passagens-main .box-container .box{
-   border:var(--border);
-   box-shadow: var(--box-shadow);
-   background: var(--white);
-   display: none;
-}
-
-.passagens-main .box-container .box:nth-child(1),
-.passagens-main .box-container .box:nth-child(2),
-.passagens-main .box-container .box:nth-child(3),
-.passagens-main .box-container .box:nth-child(4),
-.passagens-main .box-container .box:nth-child(5),
-.passagens-main .box-container .box:nth-child(6){
-   display: inline-block;
-}
-
-.passagens-main  .box-container .box:hover .image img{
-   transform: scale(1.1);
-}
-
-.passagens-main  .box-container .box .image{
-   height: 15em;
-   overflow: hidden;
-}
-
-.passagens-main  .box-container .box .image img{
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
-   transition: .2s linear;
-}
-
-.passagens-main .box-container .box .content{
-   padding:2em;
-   text-align: center;
-}
-
-.passagens-main .box-container .box .content h3{
-   font-size: 2em;
-   color:var(--black);
-}
-
-.passagens-main .box-container .box .content p{
-   font-size: 1em;
-   color:var(--light-black);
-   line-height: 2;
-   padding:1em 0;
-}
-
-.passagens-main .load-more{
-   text-align: center;
-   margin-top: 2em;
-}
