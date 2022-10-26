@@ -20,14 +20,14 @@
                     <img src="lp/img/decolivredolado5.png" alt="logo">
                 </div><!--logo-->
                 <section class="input-search">
-                    <div class="search-box">
-                        <input type="text" class="search-txt" placeholder="Pesquisar"><!--search-text-->
-                        <a href="#">
-                            <img src="/lp/img/loupe.png" alt="Lupa">
-                        </a>
-                    </div><!--search-box-->                    
-                    <form action="" method="POST">
-                    </form><!--POST-->                    
+                    <form action="/pages/passagens_form.php" method="GET">
+                        <div class="search-box">
+                            <input type="text" name="link_pass" class="search-txt" placeholder="Pesquisar"><!--search-text-->
+                            <a href="#">
+                                <img src="/lp/img/loupe.png" alt="Lupa">
+                            </a>
+                        </div><!--search-box-->                    
+                    </form><!--GET-->                    
                 </section><!--input-search-->        
                 <div class="information flex">
                     <a href="http://" target="_blank"><i class="fa-solid fa-headphones"><br>AJUDA</i></a><i class="fa-solid fa-grip-lines-vertical"></i><a href="/login/login.php" target="_blank"><i class="fa-solid fa-user"><br>LOGIN</i></a> 
