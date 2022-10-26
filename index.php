@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="lp/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="lp/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/lp/favicon_io/site.webmanifest">
-    <link rel="stylesheet" href="/lp/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>DecoLivre|Reserva de Passagens</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
             </menu><!--menu-wrapper center-->
             <nav class="nav-pages flex">
                 <li><a href="index.php"><i class="fa-solid fa-house"></i><br>INICIO</a></li>
-                <li><a href="/pages/passagens.php"><i class="fa-sharp fa-solid fa-plane"></i><br>PASSAGENS AÉREAS</a></li>
+                <li><a href="/pages/passagens.php" target="_blank"><i class="fa-sharp fa-solid fa-plane"></i><br>PASSAGENS AÉREAS</a></li>
                 <li><a href="index.php"><i class="fa-solid fa-comment-dots"></i><br>COMENTÁRIOS</a></li>
                 <li><a href="index.php"><i class="fa-solid fa-users"></i><br>SOBRE NÓS</a></li>
             </nav><!--nav-page center-->

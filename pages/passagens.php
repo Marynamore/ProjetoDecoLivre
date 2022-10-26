@@ -72,143 +72,59 @@
             </form>
         </section>
         <main class="center">
-            <section class="passagens-main">
-            <h1 class="passagens-title">top destinations</h1>
-            <div class="box-container">
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-1.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-2.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-3.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-4.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-5.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-6.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-7.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-8.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-9.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-10.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-11.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="images/img-12.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & tour</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-
-            </div>
-
+            <section class="center"> 
+                <div class="vitrine-title flex">
+                    <h2>Passagens Aéreas Nacionais</h2>
+                </div><!--vitrine-title-->
+                <section class="vitrine-national flex">                                 
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9d/43/9e/aig-mre.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/79/e7/a2/catedral-metropolitana.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/40/b4/95/pontao-a-noite.jpg?w=600&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9d/43/9e/aig-mre.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                </section><!--vitrine-national-->
+            </section><!--center-->
+            <section class="center"> 
+                <div class="vitrine-title flex vitrine-title-inter">
+                    <h2>Passagens Aéreas International</h2>
+                </div><!--vitrine-title, vitrine-title-inter-->
+                <section class="vitrine-international flex">                                 
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9d/43/9e/aig-mre.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/79/e7/a2/catedral-metropolitana.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/40/b4/95/pontao-a-noite.jpg?w=600&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                    <aside class="box-vitrine">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9d/43/9e/aig-mre.jpg?w=1200&h=-1&s=1" alt="Brasilia"><br><br>
+                        <h4>Brasilia</h4><br>
+                        <a href="" target="_blank">Veja mais!</a>
+                    </aside><!--box-vitrine-->
+                </section><!--vitrine-international-->
             <div class="load-more"><span class="btn">load more</span></div>
 
             </section>
